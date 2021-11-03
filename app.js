@@ -2,8 +2,27 @@
 
 new Vue({
    el:'#vue-app',
+    data:{
 
+    },
+    methods: {
+
+    }
  });
+
+
+
+// Code 3
+// new Vue({
+//    el:'#vue-app',
+//     data:{
+//       name: "",
+//       age: ""
+//     },
+//     methods: {
+//
+//     }
+//  });
 
 
 
@@ -12,6 +31,8 @@ new Vue({
 //    el:'#vue-app',
 //        data:{
 //            age: 45,
+//            x: 0,
+//            y: 0
 //            },
 //            methods:{
 //              addage: function(inc){
@@ -21,10 +42,10 @@ new Vue({
 //                 this.age -= dec;
 //              },
 //              aget: function(event){
-//                 this.age += event;
+//                 this.age += event.offsetX;
 //              },
 //              agem: function(event){
-//                 this.age -= event;
+//                 this.age -= event.offsetY;
 //              }
 //            }
 //  });
