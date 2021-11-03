@@ -2,6 +2,25 @@
 
 
 
+// code 5
+// new Vue({
+//    el:'#vue-app',
+//     data:{
+//       name: "rizwanullah",
+//       characters: ["rizwan", "shaan", "haris", "haroon"],
+//       names:[
+//         {name: "haris", age: 24},
+//         {name: "adil", age: 546},
+//         {name: "ali", age: 56},
+//         {name: "baba", age: 657}
+//       ]
+//     },
+//     methods: {
+//
+//     }
+//  });
+
+
 
 // code 4
 // new Vue({
